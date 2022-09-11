@@ -15,7 +15,7 @@
 <body>
     <main>
         <div class="formulario-login">
-            <h1 class="titulo" id="bemVindo">Bem vindo(a)!</h1>
+            <h1 class="titulo" id="bemVindo">Bem vindo(a) <?php echo $_POST['usuario'] ?>!</h1>
         </div>
         </form>
     </main>
